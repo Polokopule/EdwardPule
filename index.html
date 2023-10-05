@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("bg.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Poloko Edward Pule</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+ 
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+ 
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1  " id="home" >
+  <div class=" w3-text-white" >
+  	<div style="display:flex;flex-wrap:wrap;
+  	width:100%; justify-content:center; align-items:center; padding-top:50px;padding-bottom:20px; ">
+<img src="owner.png" width="60%" style="margin-top:30px;">
+	<div style="display:flex;
+	flex-direction:column;justify-content:center; text-align:center; " >
+    <span  style=" font-size:2rem; ">I Am Poloko  Pule</span>
+    	<span>Web App developer creating captivating online experiences
+
+
+</span></div>
+    
+    </div>
+    
+  </div> 
+  
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+ 
+  <div class="w3-row-padding " style="margin-top:40px">
+    <div class="w3-quarter">
+     
+     
+      <p>Hello, I'm Poloko Edward Pule, an 18-year-old web app developer hailing from the beautiful kingdom of Lesotho. My journey into the world of web development began in 2019, and in just four short years, I've evolved into a passionate and experienced creator of web applications.
+      <br><br>
+      Driven by a curiosity for coding and a deep fascination for technology, I've dedicated myself to crafting innovative web solutions that not only meet but exceed user expectations. My virtual journey has been a thrilling one, with every line of code I write, and every app I bring to life, serving as a testament to my unwavering commitment to the digital realm.<br><br>
+      
+      Lesotho is not only my home; it's also a source of inspiration for my work. The rich culture, stunning landscapes, and the warmth of its people continue to influence my creativity.
+      <br></br>
+      Join me on this digital adventure, where we turn ideas into interactive and engaging web experiences. Let's explore the limitless possibilities of the web together.</p>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">My Projects</h3>
+  <p class="w3-center w3-large">My best collection of Apps</p>
+  <div class="w3-row-padding " style="margin-top:64px">
+  	
+  	
+  	
+  	
+    <div class="w3-margin-bottom">
+      <div class="w3-card">
+        <img src="bd.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>BD-School of Creation</h3>
+          <p class="w3-opacity">Android errors snd Solutions</p>
+          <p>Navigate the world of Android troubleshooting with ease using BD-School. This indispensable app is your guide to tackling Android errors and finding quick solutions. Whether it's app crashes, system issues, or device problems, BD-School is your go-to resource for resolving Android-related woes. Empower yourself with the knowledge you need to keep your Android device running smoothly</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class=" w3-margin-bottom">
+      <div class="w3-card">
+        <img src="codecraft.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>CodeCraft</h3>
+          <p class="w3-opacity">Learn Basics of JavaScript</p>
+          <p>I've created CodeCraft to make learning JavaScript an exciting journey for all aspiring developers. My vision is to provide a platform where learners can easily grasp the basics and immediately apply their knowledge to real projects</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="editor.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>CodeCraft Editor</h3>
+          <p class="w3-opacity">Offline Code Editor for Html,css and javaScript</p>
+          <p> The ultimate offline code editor for HTML, CSS, and JavaScript enthusiasts. With CodeCraft Editor, you can write and test your code anytime, anywhere, even without an internet connection. Get ready to bring your coding skills to life with this powerful tool at your fingertips!"</p>
+  
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>My Skills.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+      tempor incididunt ut labore et dolore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+      tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa  w3-margin-right"></i>HTML & CSS</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:98%">98%</div>
+      </div>
+      <p class="w3-wide"><i class="fa  w3-margin-right"></i>PHP & MYSQL</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:60%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa w3-margin-right"></i>JAVASCRIPT</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Static Website</li>
+        <li class="w3-padding-16"><b>1/5</b> Pages</li>
+       
+        <li class="w3-padding-16"><b>1</b> Domains</li>
+       
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">M 1,200</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact developer</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-48">Dynamic Website</li>
+        <li class="w3-padding-16"><b>1/50</b> Pages</li>
+        <li class="w3-padding-16"><b>Include</b> Security</li>
+        <li class="w3-padding-16"><b>1</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">M 4,100</h2>
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contact Deceloper</button>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+    <!-- Image of location/map -->
+    
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
+    
+    
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">BD-School of Creation</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
